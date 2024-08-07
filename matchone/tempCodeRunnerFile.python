@@ -1,0 +1,13 @@
+
+choice = int(input("1. Create_Account\n2. Login\n"))
+
+if choice ==2:
+    print("Create Account First")
+
+elif choice==1:
+    user_name = int(input("Enter Username ="))
+    password = int(input("Enter Password="))
+    phone_no = int(input("Enter Username="))
+
+else:
+    print("Invalid Choice! Please Select Given Choices")
